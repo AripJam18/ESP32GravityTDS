@@ -187,24 +187,20 @@ Sumber: World Health Organization (WHO)
 Masalah: Nilai ADC selalu 0
 Solusi:
 
-Pastikan sensor terendam air (air murni bisa baca 0)
-
-Coba tambahkan sedikit garam untuk test
-
-Aktifkan debug mode: tdsSensor.enableDebug(true)
+1. Pastikan sensor terendam air (air murni bisa baca 0)
+2. Coba tambahkan sedikit garam untuk test
+3. Aktifkan debug mode: tdsSensor.enableDebug(true)
 
 Masalah: Nilai tidak stabil
 Solusi:
 
-Pastikan probe tidak terkena cahaya langsung
-
-Biarkan probe terendam beberapa saat hingga stabil
-
-Cek koneksi kabel
+1. Pastikan probe tidak terkena cahaya langsung
+2. Biarkan probe terendam beberapa saat hingga stabil
+3. Cek koneksi kabel
 
 Masalah: EEPROM tidak menyimpan
 Solusi:
-EEPROM.begin(32);  // Pastikan ini dipanggil di setup()
+"EEPROM.begin(32);  // Pastikan ini dipanggil di setup()"
 
 📄 Lisensi
 Original library by DFRobot (Jason) - LGPLv3 License
@@ -218,8 +214,6 @@ Modifikasi untuk ESP32: [AripJam18]
 🤝 Kontribusi
 Pull request dan issue selalu diterima! Pastikan:
 
-Testing di ESP32 devkit
-
-Update dokumentasi jika perlu
-
-Ikuti format kode yang ada
+1. Testing di ESP32 devkit / wroom
+2. Update dokumentasi jika perlu
+3. Ikuti format kode yang ada
